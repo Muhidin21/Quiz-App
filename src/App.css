@@ -1,0 +1,172 @@
+/* 
+  
+  /* Quiz.css */
+  .quiz-container {
+    text-align: center;
+  }
+  
+  .quiz-container hr {
+    margin: 20px 0;
+    border: 1px solid #e4edee;
+  }
+  
+  .quiz-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-container li {
+    background: #e3f6f7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .quiz-container li.correct {
+    background: #7acfc0;
+    color: #fff;
+  }
+  
+  .quiz-container li.wrong {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  .quiz-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0d93e0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .quiz-container button:disabled {
+    background: #e4edee;
+    cursor: not-allowed;
+  }
+  
+  .quiz-container .index {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .quiz-complete h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .quiz-complete p {
+    margin: 10px 0;
+  }
+  
+  .quiz-complete button:hover {
+    background: #007bff;
+  }
+  
+  /* SignUp.css */
+  .signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(246, 243, 243, 0.1);
+    background-color: white;
+  }
+  
+  .signup-container h1 {
+    text-align: center;
+  }
+  
+  .signup-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .signup-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .signup-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-container .error {
+    color: red;
+  }
+  
+  /* SignIn.css */
+  .signin-container {
+    text-align: center;
+  }
+  
+  .signin-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .signin-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .signin-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .signin-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d93e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signin-container button:hover {
+    background-color: #007bff;
+  }
+  
+  .signin-container .error {
+    color: red;
+  }
+  
+  /* General styles */
+  button {
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }

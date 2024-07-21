@@ -1,0 +1,42 @@
+/* Auth.css */
+.auth-container, .start-quiz-container {
+    text-align: center;
+    background: #F7FDFD;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+  }
+  
+  .auth-container h1, .start-quiz-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .auth-container input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-container button, .start-quiz-container button {
+    padding: 10px 20px;
+    background-color: #24CCC9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-container button:hover, .start-quiz-container button:hover {
+    background-color: #13B1D3;
+  }
+  
+  .auth-error {
+    color: #f44336;
+    margin-top: 10px;
+  }
+  
